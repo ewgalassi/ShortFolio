@@ -1,6 +1,6 @@
 # ShortFolio
 
-https://ewgalassi.github.io/ShorFolio/
+https://ewgalassi.github.io/ShortFolio/
 
 This is my mobile-responsive personal portfolio.  It uses HTML, CSS, JavaScript, JQuery, and Bootstrap.  It contains a collection of my other projects.
 
