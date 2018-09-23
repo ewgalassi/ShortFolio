@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Eric Galassi</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Eric Galassi's Portfolio</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
         data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -41,10 +41,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Applications</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Bio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -67,7 +67,7 @@
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+      <h2 class="text-center text-uppercase text-secondary mb-0">Applications</h2>
       <hr class="style-one">
       <div class="row">
         <div class="col-md-6 col-lg-4">
@@ -77,7 +77,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+            <img class="img-fluid" src="img/portfolio/tender.png" alt="Tender Food App">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -87,7 +87,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid" src="img/portfolio/stock.png" alt="Counter Stock Game">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -97,7 +97,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <img class="img-fluid" src="img/portfolio/manager.gif" alt="Bamazon Management App">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -107,7 +107,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            <img class="img-fluid" src="img/portfolio/gifs.png" alt="Giftastic GIF App">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -117,7 +117,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+            <img class="img-fluid" src="img/portfolio/liri.png" alt="LIRI Search App">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -127,7 +127,7 @@
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+            <img class="img-fluid" src="img/portfolio/rockpaper.png" alt="Rock, Paper, Scissors Multiplayer Game">
           </a>
         </div>
       </div>
@@ -137,7 +137,7 @@
   <!-- About Section -->
   <section class="bg-primary text-white mb-0" id="about">
     <div class="container">
-      <h2 class="text-center text-uppercase text-white">About</h2>
+      <h2 class="text-center text-uppercase text-white">Bio</h2>
       <hr class="style-one">
       <div class="row">
         <div class="col-lg-4 ml-auto">
@@ -167,12 +167,26 @@
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
       <hr class="style-one">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
+      <div id="links" class="content">
+        <a class="menu collBtn" href="mailto:ewgalassi@gmail.com"><img class="logo" src="img/logo_gmail_32px.png" style="height:28px">ewgalassi@gmail.com</a><br>
+        <a class="menu collBtn" href="https://github.com/ewgalassi" target="_blank"><img class="logo" src="img/GitHub-Mark-32px.png"
+            style="height:28px">GitHub page</a><br>
+        <a class="menu collBtn" href="https://www.linkedin.com/in/eric-galassi-6780638a" target="_blank"><img id="linkedin"
+            class="logo" src="img/In-2C-21px-R.png" style="height:22px;">LinkedIn page</a><br>
 
+        <!-- Trigger/Open The Modal -->
+        <a id="myBtn" class="logo menu collBtn"><img id="resume" class="logo" src="img/plumier-32-182044.png" style="height:28px">Resume</a>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <embed id="pdf" src="img/resume.pdf" type="application/pdf" width="100%" />
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Footer -->
@@ -181,8 +195,7 @@
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <p class="lead mb-0">Leander, TX 78641</p>
         </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
@@ -215,9 +228,9 @@
           </ul>
         </div>
         <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <h4 class="text-uppercase mb-4">About Eric Galassi</h4>
+          <p class="lead mb-0">I am a former scientist, teacher, loan officer, and veteran. My pleasure is working on
+            web applications and creating anything from nothing.</p>
         </div>
       </div>
     </div>
@@ -247,12 +260,14 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Tender Food App</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://ewgalassi.github.io/project_one/" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/tender.png"
+                alt="Tender Food App"></a>
+            <p class="mb-5">Tender is an app for indecisive people to put in their criteria for a restaurant and the
+              app will select the restaurant for them. The search can be based upon the distance to the restaurant,
+              cuisine type, price, and if it is open at this time. It uses API calls, HTML, CSS, and JavaScript.<br><a
+                class="github-link" href="https://github.com/ewgalassi/project_one" target="_blank">github.com/ewgalassi/project_one</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
@@ -271,12 +286,17 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Counter Stock Game</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://hidden-fortress-38316.herokuapp.com/" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/stock.png"
+                alt="Counter Stock Game"></a>
+            <p class="mb-5">Counter Stock is a game that allows a user to create characters with a stock portfolio. The
+              character initially starts with a value of $1000, but the value changes depending upon the percent change
+              of the stock in the current market day. This character can then battle other characters belonging to
+              different users. Victory results in increases in the portfolio value, while losses will decrease its
+              value. This game uses API calls, HTML, CSS, JavaScript, localStorage, JQuery, Bootstrap, Handlebars,
+              Express, and Node.<br><a class="github-link" href="https://github.com/ewgalassi/project2team3_Counter-Stock"
+                target="_blank">github.com/ewgalassi/project2team3_Counter-Stock</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
@@ -295,12 +315,15 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Bamazon Management App</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://github.com/ewgalassi/bamazon" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/manager.gif"
+                alt="Bamazon Management App"></a>
+            <p class="mb-5">Bamazon is an app to shop at or manage a retailer. It works in the command line and can be
+              installed by following the directions on the GitHub repository. Once installed, the user can use it as
+              either a customer or manager. A customer can add items in stock to their cart and checkout. A manager can
+              see the inventory and restock items or sell new items. This app uses JavaScript, Node, and MySQL.<br><a
+                class="github-link" href="https://github.com/ewgalassi/bamazon" target="_blank">github.com/ewgalassi/bamazon</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
@@ -319,12 +342,14 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Giftastic GIF Finder App</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://ewgalassi.github.io/giftastic/" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/gifs.png"
+                alt="Giftastic GIF Finder"></a>
+            <p class="mb-5">Giftastic is an app that searches the Giphy API for GIFs that match the meme in the query.
+              The user can first create a button to search for the topic of the meme, then press that button to
+              generate the GIFs on the page. This app uses HTML, CSS, JavaScript, JQuery, and AJAX.<br><a class="github-link"
+                href="https://github.com/ewgalassi/giftastic/" target="_blank">github.com/ewgalassi/giftastic</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
@@ -343,12 +368,14 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">LIRI Node App</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://github.com/ewgalassi/liri-node-app" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/liri.png"
+                alt="LIRI Node App"></a>
+            <p class="mb-5">LIRI is an app that can search information about a band's concert, a movie, or a song. This
+              app can be used in a command line, as it relies on Node. Installation instructions are in the GitHub
+              repository. This uses JavaScript, Node, API calls, and AJAX.<br><a class="github-link" href="https://github.com/ewgalassi/liri-node-app"
+                target="_blank">github.com/ewgalassi/liri-node-app</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
@@ -367,12 +394,15 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Rock, Paper, Scissors Game</h2>
             <hr class="style-one">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
-              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a href="https://ewgalassi.github.io/RPS-Multiplayer/" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/rockpaper.png"
+                alt="Rock, Paper, Scissors Game"></a>
+            <p class="mb-5">This is a Rock, Paper, Scissors game that can be played between two different players, or
+              on two separate browser tabs. Players can enter their name, then when both are ready they can choose
+              which hand to play. During gameplay, the players can send messages via the chat box at the bottom of the
+              screen. This game uses HTML, CSS, JavaScript, JQuery, and Firebase.<br><a class="github-link" href="https://github.com/ewgalassi/RPS-Multiplayer"
+                target="_blank">github.com/ewgalassi/RPS-Multiplayer</a></p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close</a>
