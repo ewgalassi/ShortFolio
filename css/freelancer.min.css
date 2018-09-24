@@ -332,3 +332,26 @@
 #pdf {
     height: 90%;
 }
+
+.collBtn, #myBtn {
+    color: #003699;
+    font-size: 36px;
+    padding: 20px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.collBtn:hover, #myBtn:hover {
+    text-decoration: none;
+    color: #000c24;
+    cursor: pointer;
+}
+
+.para-title {
+    color: #18526d;
+}
+
+.logo {
+    padding-right: 15px;
+    height: 42px;
+}
