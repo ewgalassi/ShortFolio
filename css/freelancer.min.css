@@ -1,9 +1,15 @@
  */body{
      font-family:Lato}
  
- h1,h2,h3,h4,h5,h6{
+h2,h3,h4,h5,h6{
      font-weight:700;
-     font-family:Montserrat}
+     font-family: 'Righteous', cursive;}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
  
  section{
      padding:6rem 0}
@@ -46,14 +52,17 @@
      padding-top:1rem;
      padding-bottom:1rem;
      font-weight:700;
-     font-family:Montserrat}
+     font-family: 'Varela Round', sans-serif;}
  
  #mainNav .navbar-brand{
-     color:#fff}
+    color:#fff;
+    }
  
  #mainNav .navbar-nav{
-     margin-top:1rem;
-     letter-spacing:.0625rem}
+    margin-top:1rem;
+    letter-spacing:.0625rem;
+    font-size: 1.5rem;
+    }
  
  #mainNav .navbar-nav li.nav-item a.nav-link{
      color:#fff}
@@ -339,6 +348,7 @@
     padding: 20px;
     margin-left: 50px;
     font-weight: 500;
+    font-family: 'Patua One', cursive;
 }
 
 .collBtn:hover, #myBtn:hover {
@@ -354,4 +364,20 @@
 .logo {
     padding-right: 15px;
     height: 42px;
+}
+
+#self-descript {
+    font-family: 'Patua One', cursive;
+    letter-spacing: 0.1rem;
+}
+
+@media (max-width:800px) {
+    .collBtn, #myBtn {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .logo {
+        height: 36px;
+    }
 }
